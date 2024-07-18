@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Pedidos</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Calculadora de Pedidos</h1>
+        <form id="pedidoForm">
+            <label for="stock_actual">Stock actual:</label>
+            <input type="number" id="stock_actual" required>
+
+            <label for="consumo_medio">Consumo medio diario:</label>
+            <input type="number" id="consumo_medio" required>
+
+            <label for="lead_time">Lead time en días:</label>
+            <input type="number" id="lead_time" required>
+
+            <button type="button" onclick="calcularPedido()">Calcular Pedido</button>
+        </form>
+        <div id="resultado"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+<footer>
+    <p>© Hernan Pared&#8482;</p>
+</footer>
+
+</html>
