@@ -54,22 +54,6 @@ button:hover {
     border-radius: 4px;
 }
 
-/* Responsive Design */
-@media (max-width: 768px) {
-    .container {
-        padding: 15px;
-    }
-}
-
-@media (max-width: 480px) {
-    .container {
-        padding: 10px;
-    }
-
-    h1 {
-        font-size: 1.5em;
-    }
-}
 
 footer {
     position: fixed;
@@ -87,3 +71,25 @@ footer {
 body {
     padding-bottom: 50px; /* Ajustar según la altura del footer */
 }
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .container {
+        padding: 15px;
+    }
+    footer{
+        background-color: #e2e2e2;
+        color: #333;
+    }
+}
+
+@media (max-width: 480px) {
+    .container {
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 1.5em;
+    }
+}
+
